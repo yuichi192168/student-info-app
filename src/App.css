@@ -37,6 +37,14 @@
   font-weight: 700;
   letter-spacing: 1px;
   box-shadow: 0 10px 24px rgba(99, 203, 214, 0.35);
+  overflow: hidden;
+}
+
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
 }
 
 .brand-title {
@@ -45,6 +53,7 @@
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: var(--ink);
 }
 
 .brand-subtitle {
